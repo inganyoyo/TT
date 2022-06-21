@@ -1,6 +1,6 @@
-package com.test.level1;
 
-public class Solution9 {
+
+public class SoSu {
 	public int solution(int[] nums) {
 		//에라토스테네스의 체
 		boolean[] check = new boolean[10000 + 1]; // true : 비소수 , false : 소수
@@ -35,7 +35,7 @@ public class Solution9 {
 	}
 
 	public static void main(String[] args) {
-		Solution9 s3 = new Solution9();
+		SoSu s3 = new SoSu();
 		int[] nums = { 1, 2, 3, 4 };
 
 		s3.solution(nums);
